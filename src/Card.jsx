@@ -5,9 +5,9 @@ import ResetButton from "./ResetButton";
 
 export default function Card() {
   return (
-    <div>
-      <Title>This app developed By Haider Alwaqfi</Title>
-      <Count />
+    <div className="card">
+      <Title />
+      <Count number={5} size="lg" />
       <ResetButton />
       <CountButtons />
     </div>
