@@ -1,8 +1,8 @@
-export default function Count({ number, size = "md" }) {
+export default function Count({ count }) {
   return (
     <>
       <CountTitle />
-      <p className="count">{number}</p>
+      <p className="count">{count}</p>
     </>
   );
 }
